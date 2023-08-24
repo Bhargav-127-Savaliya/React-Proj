@@ -1,0 +1,26 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./component/Home";
+import AboutPage from "./component/About";
+import ContactPage from "./component/Contact";
+
+<BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/about" element={<AboutPage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
+      </Routes>
+   </BrowserRouter>
+
+     // 👇️ sort by String property ASCENDING (A - Z)
+  const strAscending = [...employees].sort((a, b) =>
+    a.name > b.name ? 1 : -1,
+  );
+  console.log(strAscending);
+
+
+
+  // 👇️ sort by String property DESCENDING (Z - A)
+  const strDescending = [...employees].sort((a, b) =>
+    a.name > b.name ? -1 : 1,
+  );
+  console.log(strDescending);

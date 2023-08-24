@@ -1,0 +1,12 @@
+node index.js // run file
+json-server db.json // start json server
+"type": "module", // insert in package.json
+npm init // for create package.json
+npm install
+npm i axios
+npm i redux
+// middlewear
+npm i redux-logger
+npm i redux-thunk
+npm i -g json-server
+

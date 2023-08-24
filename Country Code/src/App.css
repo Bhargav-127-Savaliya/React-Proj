@@ -1,0 +1,75 @@
+.font {
+    font-size: 14px;
+}
+
+.font span {
+    display: block;
+}
+
+.borderlink {
+    border: 1px solid #2583e7;
+    border-radius: 5px;
+    background: #2583e7;
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+    padding: 1px;
+}
+
+.tt {
+    text-decoration: none;
+    color: white;
+}
+
+.loding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #2583e7;
+}
+
+.navs {
+    background: #212529;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    outline: none;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.cardbox {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 400px;
+    margin: 20px;
+    transition: 0.2s;
+}
+
+.cardbox:hover {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.57);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transform: scale(1.1, 1.1);
+}
+.openMap{
+    background: #3d9cfc;
+    color: white;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    float: right;
+    text-decoration: none;
+}
